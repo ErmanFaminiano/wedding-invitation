@@ -116,6 +116,73 @@ footer.page-footer {
   color: #383838;
 }
 
-#img-size {
+.pic
+ {
+  width: px;
+  height: 599px;
 
+}
+
+#Rectangle
+ {
+  background:#FCC ;
+  width: 1680px;
+  height: 1050px;
+
+}
+
+#to-go
+{
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+}
+
+#to-go-text{
+  font-family: var(--cormorant-family);
+  font-size: 2vw;
+  font-weight: 400;
+  color: #383838;
+}
+
+#header-sponsors
+{
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+}
+
+.section-Sponsors
+{
+ 
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+.header
+{
+  text-align: center;
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+}
+
+.Sponsors-primary
+{ font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+  text-align: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Sponsor-text
+{
+  font-family: var(--cormorant-family);
+  font-size: 2vw;
+  font-weight: 400;
+  color: #383838;
+  text-align: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
 }
