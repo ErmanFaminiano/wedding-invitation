@@ -116,19 +116,19 @@ footer.page-footer {
   color: #383838;
 }
 
-.pic
+.Map
  {
-  width: px;
-  height: 599px;
+  width: 100%;
+  height: 556px;
+  flex-shrink: 0;
 
 }
 
 #Rectangle
  {
   background:#FCC ;
-  width: 1680px;
+  width: 100%;
   height: 1050px;
-
 }
 
 #to-go
@@ -156,7 +156,7 @@ footer.page-footer {
 {
  
   display:grid;
-  grid-template-rows: 1fr git 1fr;
+  grid-template-rows: 1fr 1fr;
 
 }
 .header
@@ -167,7 +167,7 @@ footer.page-footer {
   font-size: 6vw;
 }
 
-.Sponsors-primary
+.header2
 { font-family: var(--imperial-family);
   color: var(--main-font-color);
   font-size: 6vw;
@@ -176,7 +176,7 @@ footer.page-footer {
   grid-template-columns: 1fr 1fr;
 }
 
-.Sponsor-text
+.P
 {
   font-family: var(--cormorant-family);
   font-size: 2vw;
@@ -185,4 +185,12 @@ footer.page-footer {
   text-align: center;
   display:grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.section-entourage
+{
+ 
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+
 }
