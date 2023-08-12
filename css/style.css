@@ -116,81 +116,88 @@ footer.page-footer {
   color: #383838;
 }
 
-.Map
- {
-  width: 100%;
+.Map {
+  overflow: hidden;
+  width: 98.9% auto;
   height: 556px;
   flex-shrink: 0;
 
 }
 
-#Rectangle
- {
-  background:#FCC ;
+#Rectangle {
+  background: #FCC;
   width: 100%;
   height: 1050px;
 }
 
-#to-go
-{
+#to-go {
   font-family: var(--imperial-family);
   color: var(--main-font-color);
   font-size: 6vw;
 }
 
-#to-go-text{
+#to-go-text {
   font-family: var(--cormorant-family);
   font-size: 2vw;
   font-weight: 400;
   color: #383838;
 }
 
-#header-sponsors
-{
+#header-sponsors {
   font-family: var(--imperial-family);
   color: var(--main-font-color);
   font-size: 6vw;
 }
 
-.section-Sponsors
-{
- 
-  display:grid;
+.section-Sponsors {
+
+  display: grid;
   grid-template-rows: 1fr 1fr;
 
 }
-.header
-{
+
+.header {
   text-align: center;
   font-family: var(--imperial-family);
   color: var(--main-font-color);
   font-size: 6vw;
 }
 
-.header2
-{ font-family: var(--imperial-family);
+.header2 {
+  font-family: var(--imperial-family);
   color: var(--main-font-color);
   font-size: 6vw;
   text-align: center;
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.P
-{
+.P {
   font-family: var(--cormorant-family);
   font-size: 2vw;
   font-weight: 400;
   color: #383838;
   text-align: center;
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.section-entourage
-{
- 
-  display:grid;
+.section-entourage {
+
+  display: grid;
   grid-template-rows: 1fr 1fr;
 
+
+}
+
+#nextBg {
+  background: url(/image/Bg.png), lightgray 50% / cover no-repeat;
+  width: 98.9vw;
+  height: 2403px;
+  flex-shrink: 0;
+}
+
+#wtw {
+  font-family: var(--imperial-family);
+  color: white; 
 }
