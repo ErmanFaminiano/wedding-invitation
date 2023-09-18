@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Imperial+Script&display=swap');
+
+:root {
+  --main-font-color: #A84A4A;
+  --imperial-family: 'Imperial Script', cursive;
+  --cormorant-family: 'Cormorant SC', serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#header-text {
+  color: #FFFFFF;
+  font-family: var(--imperial-family);
+
+
+}
+
+#a {
+  padding-right: 15rem;
+  font-size: 5vw;
+
+
+}
+
+#b {
+  padding-left: 15rem;
+  font-size: 5vw;
+
+}
+
+#ven-header {
+  color: var(--main-font-color);
+  font-family: var(--imperial-family);
+}
+
+#date-time {
+  color: var(--main-font-color);
+  font-family: var(--cormorant-family);
+
+}
+
+#date {
+
+  letter-spacing: 1vw;
+}
+
+#time {
+  letter-spacing: 1.8px;
+}
+
+
+#venue-name {
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+
+}
+
+#venue-address {
+  font-family: var(--cormorant-family);
+  font-size: 2vw;
+  font-weight: 400;
+  color: #383838;
+}
+
+.Map {
+  overflow: hidden;
+  width: 98.9% auto;
+  height: 556px;
+  flex-shrink: 0;
+
+}
+
+#Rectangle {
+  background: #FCC;
+  width: 100%;
+  height: 1050px;
+}
+
+#to-go {
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+}
+
+#to-go-text {
+  font-family: var(--cormorant-family);
+  font-size: 2vw;
+  font-weight: 400;
+  color: #383838;
+}
+
+#header-sponsors {
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+}
+
+.section-Sponsors {
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.header {
+  text-align: center;
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+}
+
+.header2 {
+  font-family: var(--imperial-family);
+  color: var(--main-font-color);
+  font-size: 6vw;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.P {
+  font-family: var(--cormorant-family);
+  font-size: 2vw;
+  font-weight: 400;
+  color: #383838;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-entourage {
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+
+#nextBg {
+  background: url(/image/Bg.png), lightgray 50% / cover no-repeat;
+  width: 98.99vw auto;
+  height: 200vh;
+
+}
+
+#wtw {
+  font-family: var(--imperial-family);
+  color: white;
+}
+
+#gwl {
+  font-family: var(--imperial-family);
+  color: #A44444;
+}
+
+#leaves {
+  width: 50%;
+}
+
+
+#ending-names {
+  background: #454545;
+}
+
+@media screen and (max-width: 600px) {
+  #gwl {
+    font-size: 50px;
+  }
+}
+
+#title-footer {
+  font-family: var(--imperial-family);
+  color: #FFFFFF;
+}
+
+#date-footer {
+  font-family: var(--cormorant-family);
+  color: #FFFFFF;
+}
+
+#footer-id {
+  background: #343434;
+}
+
+
+#footer-message {
+  color: #FFFFFF;
+  font-family: var(--imperial-family);
+}
