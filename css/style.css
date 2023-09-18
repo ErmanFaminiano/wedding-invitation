@@ -192,12 +192,52 @@ footer.page-footer {
 
 #nextBg {
   background: url(/image/Bg.png), lightgray 50% / cover no-repeat;
-  width: 98.9vw;
-  height: 2403px;
-  flex-shrink: 0;
+  width: 98.99vw auto;
+  height: 200vh;
+
 }
 
 #wtw {
   font-family: var(--imperial-family);
-  color: white; 
+  color: white;
+}
+
+#gwl {
+  font-family: var(--imperial-family);
+  color: #A44444;
+}
+
+#leaves {
+  width: 50%;
+}
+
+
+#ending-names {
+  background: #454545;
+}
+
+@media screen and (max-width: 600px) {
+  #gwl {
+    font-size: 50px;
+  }
+}
+
+#title-footer {
+  font-family: var(--imperial-family);
+  color: #FFFFFF;
+}
+
+#date-footer {
+  font-family: var(--cormorant-family);
+  color: #FFFFFF;
+}
+
+#footer-id {
+  background: #343434;
+}
+
+
+#footer-message {
+  color: #FFFFFF;
+  font-family: var(--imperial-family);
 }
